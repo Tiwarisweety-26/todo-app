@@ -1,7 +1,7 @@
 import React from 'react';
 import CompletedTask from './components/CompletedTask';
 import TaskList from './components/TaskList';
-
+import './App.scss';
 
 const App: React.FC = () => {
   return (
@@ -20,6 +20,7 @@ const App: React.FC = () => {
       </div>
 
       </div>
+      
     </>
   );
 
